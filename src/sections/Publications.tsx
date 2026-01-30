@@ -16,6 +16,16 @@ interface Publication {
 const publications: Publication[] = [
   {
     id: 1,
+    title: 'MuS-Polar3D: A Benchmark Dataset for Computational Polarimetric 3D Imaging under Multi-Scattering Conditions',
+    authors: ['Wang, PY', 'Yu, KM', 'He, HY', 'Wu, XY'],
+    journal: 'arXiv preprint arXiv:2512.21513',
+    year: '2025',
+    link: 'https://arxiv.org/pdf/2512.21513',
+    github: 'https://github.com/WangPuyun/MuS-Polar3D',
+    abstract: 'Polarization-based underwater 3D imaging exploits polarization cues to suppress background scattering, exhibiting distinct advantages in turbid water.',
+  },
+  {
+    id: 2,
     title: 'Polarization video frame interpolation for 3D human pose reconstruction with attention mechanism',
     authors: ['Zhang, X', 'Wang, XS', 'Wu, XY', 'Huang, F'],
     journal: 'Optics and Lasers in Engineering',
@@ -25,7 +35,7 @@ const publications: Publication[] = [
     abstract: 'Video frame interpolation has been extensively explored and demonstrated, yet its application to polarization remains largely unexplored.',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Deep learning-based polarization 3D imaging method for underwater targets',
     authors: ['Wu, XY', 'Chen, JT', 'Huang, F'],
     journal: 'Optics Express',
@@ -34,7 +44,7 @@ const publications: Publication[] = [
     abstract: 'The significant absorption and scattering of light during its propagation in water severely degrade the quality of underwater imaging.',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Enhancing three-source cross-modality image fusion with improved DenseNet for infrared polarization and visible light images',
     authors: ['Wang, XS', 'Zhou, B', 'Wu, XY', 'Huang, F'],
     journal: 'Infrared Physics & Technology',
@@ -43,7 +53,7 @@ const publications: Publication[] = [
     abstract: 'The fusion of multi-modal images to create an image that preserves the unique features of each modality.',
   },
   {
-    id: 4,
+    id: 5,
     title: 'LVTSR: learning visible image texture network for infrared polarization super-resolution imaging',
     authors: ['Wang, XS', 'Chen, YT', 'Wu, XY', 'Huang, F'],
     journal: 'Optics Express',
@@ -52,7 +62,7 @@ const publications: Publication[] = [
     abstract: 'Infrared polarization division-of-focal-plane imaging technology has gained attention.',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Bio-inspired foveal super-resolution method for multi-focal-length images based on local gradient constraints',
     authors: ['Huang, F', 'Wang, XS', 'Wu, XY', 'Huang, F'],
     journal: 'Optics Express',
@@ -61,7 +71,7 @@ const publications: Publication[] = [
     abstract: 'Most existing super-resolution imaging systems utilize image registration and reconstruction algorithms.',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Three Dimensional Shape Reconstruction via Polarization Imaging and Deep Learning',
     authors: ['Wu, XY', 'Li, PH', 'Huang, F'],
     journal: 'Sensors',
@@ -71,7 +81,7 @@ const publications: Publication[] = [
     abstract: 'Deep-learning-based polarization 3D imaging techniques for estimating surface normal distribution.',
   },
   {
-    id: 7,
+    id: 8,
     title: 'SwinIPISR: A Super-Resolution Method for Infrared Polarization Imaging Sensors via Swin Transformer',
     authors: ['Wu, XY', 'Zhou, B', 'Huang, F'],
     journal: 'IEEE Sensors Journal',
@@ -80,23 +90,13 @@ const publications: Publication[] = [
     abstract: 'The performance of infrared polarization remote sensing systems is limited by sensor resolution.',
   },
   {
-    id: 8,
+    id: 9,
     title: 'High-Efficiency Multispectral-Polarization Imaging System Using Polarization Camera Array With Notch Filters',
     authors: ['Huang, F', 'Cao, RJ', 'Wu, XY'],
     journal: 'IEEE Transactions on Instrumentation and Measurement',
     year: '2023',
     link: 'https://webofscience.clarivate.cn/wos/woscc/full-record/WOS%3A001102358800027',
     abstract: 'Incident light captured by optical imaging systems engenders multidimensional high-level optical information.',
-  },
-  {
-    id: 9,
-    title: 'MuS-Polar3D: A Benchmark Dataset for Computational Polarimetric 3D Imaging under Multi-Scattering Conditions',
-    authors: ['Wang, PY', 'Yu, KM', 'He, HY', 'Wu, XY'],
-    journal: 'arXiv preprint arXiv:2512.21513',
-    year: '2025',
-    link: 'https://arxiv.org/pdf/2512.21513',
-    github: 'https://github.com/WangPuyun/MuS-Polar3D',
-    abstract: 'Polarization-based underwater 3D imaging exploits polarization cues to suppress background scattering, exhibiting distinct advantages in turbid water.',
   },
 ];
 

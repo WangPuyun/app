@@ -16,16 +16,6 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    name: 'SGuTA-SCubA',
-    description: 'Polarization video frame interpolation for 3D human pose reconstruction with attention mechanism. A novel approach for polarization-based 3D reconstruction.',
-    github: 'https://github.com/esthen-bit/SGuTA-SCubA',
-    language: 'Python',
-    stars: 1,
-    forks: 0,
-    tags: ['Polarization', '3D Reconstruction', 'Attention Mechanism', 'Computer Vision'],
-  },
-  {
-    id: 2,
     name: 'MuS-Polar3D',
     description: 'MuS-Polar3D dataset repository, containing multiple SfP evaluation baselines, code for plotting error heatmaps, ORB algorithm code, and more.',
     github: 'https://github.com/WangPuyun/MuS-Polar3D',
@@ -34,6 +24,17 @@ const projects: Project[] = [
     forks: 0,
     tags: ['3D Reconstruction', 'Deep Learning', 'Polarization Imaging', 'PyTorch'],
   },
+  {
+    id: 2,
+    name: 'SGuTA-SCubA',
+    description: 'Polarization video frame interpolation for 3D human pose reconstruction with attention mechanism. A novel approach for polarization-based 3D reconstruction.',
+    github: 'https://github.com/esthen-bit/SGuTA-SCubA',
+    language: 'Python',
+    stars: 1,
+    forks: 0,
+    tags: ['Polarization', '3D Reconstruction', 'Attention Mechanism', 'Computer Vision'],
+  },
+
 ];
 
 export default function Projects() {
