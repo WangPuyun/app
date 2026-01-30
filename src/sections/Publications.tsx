@@ -67,7 +67,7 @@ const publications: Publication[] = [
     journal: 'Sensors',
     year: '2023',
     link: 'https://webofscience.clarivate.cn/wos/woscc/full-record/WOS%3A000997213600001',
-    github: 'https://github.com/WangPuyun/My-net',
+    github: 'https://github.com/WangPuyun/MuS-Polar3D',
     abstract: 'Deep-learning-based polarization 3D imaging techniques for estimating surface normal distribution.',
   },
   {
@@ -87,6 +87,16 @@ const publications: Publication[] = [
     year: '2023',
     link: 'https://webofscience.clarivate.cn/wos/woscc/full-record/WOS%3A001102358800027',
     abstract: 'Incident light captured by optical imaging systems engenders multidimensional high-level optical information.',
+  },
+  {
+    id: 9,
+    title: 'MuS-Polar3D: A Benchmark Dataset for Computational Polarimetric 3D Imaging under Multi-Scattering Conditions',
+    authors: ['Wang, PY', 'Yu, KM', 'He, HY', 'Wu, XY'],
+    journal: 'arXiv preprint arXiv:2512.21513',
+    year: '2025',
+    link: 'https://arxiv.org/pdf/2512.21513',
+    github: 'https://github.com/WangPuyun/MuS-Polar3D',
+    abstract: 'Polarization-based underwater 3D imaging exploits polarization cues to suppress background scattering, exhibiting distinct advantages in turbid water.',
   },
 ];
 
