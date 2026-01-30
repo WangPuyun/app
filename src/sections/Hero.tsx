@@ -16,7 +16,7 @@ export default function Hero() {
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/images/hero-bg.jpg"
+          src={`${import.meta.env.BASE_URL}images/hero-bg.jpg`}
           alt="Hero Background"
           className="w-full h-full object-cover"
         />

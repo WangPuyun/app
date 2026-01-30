@@ -69,7 +69,7 @@ export default function PI() {
             <div className="relative">
               <div className="relative overflow-hidden rounded-2xl glass-card">
                 <img
-                  src="/images/pi-portrait.jpg"
+                  src={`${import.meta.env.BASE_URL}images/pi-portrait.jpg`}
                   alt="Dr. Xianyu Wu"
                   className="w-full aspect-[3/4] object-cover"
                 />

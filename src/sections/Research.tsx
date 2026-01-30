@@ -105,7 +105,7 @@ export default function Research() {
         >
           <div className="relative rounded-2xl overflow-hidden glass-card">
             <img
-              src="/images/research-optics.jpg"
+              src={`${import.meta.env.BASE_URL}images/research-optics.jpg`}
               alt="Research Visualization"
               className="w-full h-64 md:h-80 object-cover"
             />
