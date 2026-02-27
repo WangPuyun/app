@@ -5,6 +5,7 @@ import PI from '@/sections/PI';
 import Research from '@/sections/Research';
 import Publications from '@/sections/Publications';
 import Projects from '@/sections/Projects';
+import Team from '@/sections/Team';
 import Contact from '@/sections/Contact';
 import Footer from '@/sections/Footer';
 
@@ -19,6 +20,7 @@ function App() {
           <Research />
           <Publications />
           <Projects />
+          <Team />
           <Contact />
         </main>
         <Footer />

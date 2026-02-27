@@ -67,6 +67,11 @@ const translations: Record<Language, Translation> = {
       subtitle: '代码与工具',
       view_on_github: '在GitHub上查看',
     },
+    team: {
+      title: '团队成员',
+      // subtitle: '代码与工具',
+      // view_on_github: '在GitHub上查看',
+    },
     contact: {
       title: '联系我们',
       subtitle: '合作与交流',
