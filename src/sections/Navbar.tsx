@@ -8,6 +8,7 @@ const navLinks = [
   { key: 'nav.research', href: '#research' },
   { key: 'nav.publications', href: '#publications' },
   { key: 'nav.projects', href: '#projects' },
+  { key: 'nav.team', href: '#team' },
   { key: 'nav.contact', href: '#contact' },
 ];
 
