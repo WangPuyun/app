@@ -85,10 +85,10 @@ export default function Research() {
                   {t(`research.areas.${area.key}.desc`)}
                 </p>
 
-                <div className="flex items-center gap-2 text-cyan-400 text-sm font-medium group-hover:gap-3 transition-all">
+                {/* <div className="flex items-center gap-2 text-cyan-400 text-sm font-medium group-hover:gap-3 transition-all">
                   <span>{language === 'zh' ? '了解更多' : 'Learn More'}</span>
                   <ArrowRight className="w-4 h-4" />
-                </div>
+                </div> */}
               </div>
 
               <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl ${area.color} opacity-10 rounded-bl-full`} />
