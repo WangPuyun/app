@@ -9,6 +9,7 @@ import Team from '@/sections/Team';
 import Contact from '@/sections/Contact';
 import Footer from '@/sections/Footer';
 
+
 function App() {
   return (
     <LanguageProvider>
