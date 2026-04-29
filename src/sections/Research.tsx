@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Eye, Cpu, Lightbulb, Brain, ArrowRight } from 'lucide-react';
+import { Eye, Cpu, Lightbulb, Brain } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
 
 const researchAreas = [
